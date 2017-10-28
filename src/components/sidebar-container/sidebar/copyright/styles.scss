@@ -1,0 +1,14 @@
+@import '../../../../styles/globals.scss';
+
+.copyright {
+  flex: 0 0 100%;
+  text-align: center;
+
+  .link {
+    color: $foreground;
+
+    &:hover {
+      color: $white;
+    }
+  }
+}

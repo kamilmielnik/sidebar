@@ -1,0 +1,17 @@
+@import '../../../styles/globals.scss';
+
+$size: 46px;
+
+.trigger {
+  @include clickable-effects();
+
+  width: $size;
+  height: $size;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media print {
+    display: none;
+  }
+}
